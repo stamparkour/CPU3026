@@ -58,12 +58,12 @@ To run CPU3026 command line interface, download the release build and run "cpu30
 
 ## Contributing
 
-Please read our [contributing guidelines]() to get started.
+Please read our [contributing guidelines](https://github.com/stamparkour/CPU3026/blob/main/.github/contributing.md) to get started.
 For any major issues, open an issue first to discuss what should be changed.
 
 ## License
 
-This project is under the [Apache 2.0]() license.
+This project is under the [Apache 2.0](https://github.com/stamparkour/CPU3026/blob/main/LICENSE) license.
 
 ## Credits
 
