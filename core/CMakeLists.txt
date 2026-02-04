@@ -24,5 +24,5 @@ target_include_directories(core
 set(BUILD_SHARED_LIBS ON)
 
 
-# set the configure file for the project (need to be done)
-#configure_file("include/cpu3026/core/config.h.in" "include/cpu3026/core/config.h")
+# set the configure file for the project
+configure_file("include/cpu3026/cpu3026_config.h.in" "include/cpu3026/cpu3026_config.h")

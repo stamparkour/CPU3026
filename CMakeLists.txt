@@ -19,3 +19,10 @@ endif()
 if(BUILD_CMDLINE_TOOL)
 	add_subdirectory(test)
 endif()
+
+#project warnings
+if (MSVC)
+    add_compile_options(/W4 /WX)
+else()
+    add_compile_options(-Wall -Wextra -pedantic -Werror)
+endif()
