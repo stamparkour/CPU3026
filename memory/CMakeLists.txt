@@ -6,6 +6,7 @@ set(PROJECT_SOURCES
 	"src/source.cpp"
 )
 set(PROJECT_HEADERS
+	"include/cpu3026/memory/memory.h"
 )
 
 # add the library

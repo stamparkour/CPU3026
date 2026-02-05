@@ -1,6 +1,9 @@
-#include <iostream>
+#include "core_tests.h"
+#include "memory_tests.h"
+#include "memory_tests.h"
+#include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
-	std::cout << "Hello World!" << std::endl;
-	return 0;
+	testing::InitGoogleTest(&argc, argv);
+	return RUN_ALL_TESTS();
 }

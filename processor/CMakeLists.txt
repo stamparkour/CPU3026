@@ -4,6 +4,7 @@ include(FetchContent)
 #source files
 set(PROJECT_SOURCES
 	"src/source.cpp"
+	"include/cpu3026/processor/cpu3026.h"
 )
 set(PROJECT_HEADERS
 )

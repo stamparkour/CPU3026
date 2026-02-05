@@ -6,10 +6,11 @@ set(PROJECT_SOURCES
 	"src/source.cpp"
 )
 set(PROJECT_HEADERS
+	"include/cpu3026/core/concepts.h"
 )
 
 # add the library
-add_library(cpu3026_core STATIC ${PROJECT_SOURCES} ${PROJECT_HEADERS})
+add_library(cpu3026_core STATIC ${PROJECT_SOURCES} ${PROJECT_HEADERS} "include/cpu3026/core/cpu_manager.h")
 add_library(cpu3026::core ALIAS cpu3026_core)
 target_compile_features(cpu3026_core PRIVATE cxx_std_23)
 

@@ -24,6 +24,7 @@ target_link_libraries(cpu3026 INTERFACE cpu3026::core cpu3026::memory cpu3026::p
 add_subdirectory(cmd)
 add_subdirectory(test)
 add_subdirectory(cpu3026_py)
+add_subdirectory(python)
 
 #project warnings
 if (MSVC)
