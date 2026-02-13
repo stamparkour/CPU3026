@@ -10,7 +10,7 @@ set(PROJECT_HEADERS
 
 # add the executable
 add_executable(cpu3026_test ${PROJECT_SOURCES} ${PROJECT_HEADERS})
-target_compile_features(cpu3026_test PRIVATE cxx_std_23)
+target_compile_features(cpu3026_test PRIVATE cxx_std_20)
 target_link_libraries(cpu3026_test cpu3026::cpu3026)
 
 # dependencies
