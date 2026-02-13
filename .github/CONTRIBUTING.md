@@ -52,7 +52,7 @@ Branches should be created for development, archiving older stable releases, and
 
 - Development Branches should be named "dev/username"
 - Stable release branches should be named "rel/major.minor"
-- Experimental branches should be named "exp/major.minor/feature name"
+- Experimental branches should be named "exp/major.minor"
 
 Stable release branches should coincide with releases on github. All Stable release branches should be assumed as archived, but can receive critical fixes. All Stable release branches should never be deleted.
 
